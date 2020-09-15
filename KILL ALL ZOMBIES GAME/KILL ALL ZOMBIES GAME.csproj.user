@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\Form_DialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_HighKills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Form_Introduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
